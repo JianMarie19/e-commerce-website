@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - MY ONLINE STORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300;400;500;600;700&display=swap" 
+rel="stylesheet">
+<script src="https://kit.fontawesome.com/5934c912f3.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+
+
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height"30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/chair.jpg">
+                <h4>Velvet Blue Chair</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Php 300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/cabinet.jpg">
+                <h4>Storage Cabinet</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Php 200.00</p>
+            </div><div class="col-4">
+                <img src="images/lamp.jpg">
+                <h4>Geometric Lamp</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>                
+                </div>
+                <p>Php 150.00</p>
+            </div><div class="col-4">
+                <img src="images/sofa.jpg">
+                <h4>Comfy Sofa</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Php 900.00</p>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-4">
+                <img src="images/table2.jpg">
+                <h4>Grey Side table</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                   
+                </div>
+                <p>Php 250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/sofa2.jpg">
+                <h4>Green Sofa</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Php 900.00</p>
+            </div><div class="col-4">
+                <img src="images/vase.jpg">
+                <h4>Vase</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>                </div>
+                <p>Php 150.00</p>
+            </div><div class="col-4">
+                <img src="images/chair 2.jpg">
+                <h4>Straw Chair</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <p>Php 300.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lamp2.jpg">
+                <h4>Yellow lamp</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Php 180.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bed2.jpg">
+                <h4>Grey Bed</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Php 1,000.00</p>
+            </div><div class="col-4">
+                <img src="images/cutechair.jfif">
+                <h4>Cute Chair</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>                </div>
+                <p>Php 250.00</p>
+            </div><div class="col-4">
+                <img src="images/vanity.jfif">
+                <h4>Vanity box</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <p>Php 150.00</p>
+            </div>
+        </div> 
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Dowload App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our Purpose Is To Design Your Room Beautifully.<br>Come And Shop With Us</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliates</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2021 - Easy Tutorials</p>
+        </div>
+    </div>
+<!--js for toggle menu-->    
+<script>
+    var MenuItems = document.getElementById("MenutItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
+    
